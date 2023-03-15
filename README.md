@@ -47,7 +47,7 @@
 ```
 #5
 #!/bin/bash
-```
+```bash
    if [ $# -eq 3 ]
    then
    	echo "El número de parámetros introducidos es correcto"
@@ -68,7 +68,7 @@ fi
 ```
 #7
 #!/bin/bash
-```
+```bash
 if [ $# -ne 3 ]
 then
    echo "Error: número de parámetros incorrecto."
