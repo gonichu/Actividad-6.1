@@ -181,9 +181,14 @@ echo "La suma es: $suma"
 #16
 #!/bin/bash
 ```bash
-aux=$1
-$1=$2
-$2=$aux
+if [ $# -eq 2 ]; then
+  aux=$1
+  $1=$2
+  $2=$aux
+  echo "El valor de \$1 es ahora $1 y el valor de \$2 es ahora $2"
+else
+  echo "Debes introducir dos números por parámetro"
+fi
 ```
 #17
 #!/bin/bash
